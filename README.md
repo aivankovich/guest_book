@@ -22,8 +22,11 @@ admin:admin
 Если Вы используете нестандартную конфигурацию внесите соответствующие изменения в файл /database.php:
 
 define('MYSQL_SERVER', 'Сервер БД');
+
 define('MYSQL_USER', 'Пользователь БД');
+
 define('MYSQL_PASSWORD','Пароль');
+
 define('MYSQL_DB', 'Имя базы данных(по умолчанию: guest_book)');
 
 ------------
