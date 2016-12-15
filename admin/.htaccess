@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Admin Panel"
+AuthUserFile /opt/lampp/htdocs/gb/admin/.htpasswd
+require valid-user
